@@ -18,10 +18,10 @@
     The deployment name.
 
  .PARAMETER templateFilePath
-    Optional, path to the template file. Defaults to MOC2-template.json.
+    Optional, path to the template file. Defaults to MOC2LAB-template.json.
 
  .PARAMETER parametersFilePath
-    Optional, path to the parameters file. Defaults to MOC2-parameters.json. If file is not found, will prompt for parameter values based on template.
+    Optional, path to the parameters file. Defaults to MOC2LAB-parameters.json. If file is not found, will prompt for parameter values based on template.
 #>
 
 param(
@@ -41,10 +41,10 @@ param(
  $deploymentName,
 
  [string]
- $templateFilePath = "MOC2-template.json",
+ $templateFilePath = "MOC2LAB-template.json",
 
  [string]
- $parametersFilePath = "MOC2-parameters.json"
+ $parametersFilePath = "MOC2LAB-parameters.json"
 )
 
 <#
