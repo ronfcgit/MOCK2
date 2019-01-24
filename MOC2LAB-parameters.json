@@ -6,33 +6,19 @@
             "value": "southeastasia"
         },
         "networkInterfaceName": {
-            "value": "win2k12moc2275"
+            "value": "GITHUBMOC2-NIC"
         },
         "networkSecurityGroupName": {
-            "value": "Win2K12MOC2-nsg"
+            "value": "GITHUBMOC2-nsg"
         },
         "networkSecurityGroupRules": {
-            "value": [
-                {
-                    "name": "RDP",
-                    "properties": {
-                        "priority": 300,
-                        "protocol": "TCP",
-                        "access": "Allow",
-                        "direction": "Inbound",
-                        "sourceAddressPrefix": "*",
-                        "sourcePortRange": "*",
-                        "destinationAddressPrefix": "*",
-                        "destinationPortRange": "3389"
-                    }
-                }
-            ]
+            "value": []
         },
         "subnetName": {
             "value": "default"
         },
         "virtualNetworkName": {
-            "value": "MOC2Lab-vnet"
+            "value": "GITHUBMOC2-vnet"
         },
         "addressPrefixes": {
             "value": [
@@ -50,7 +36,7 @@
             ]
         },
         "publicIpAddressName": {
-            "value": "Win2K12MOC2-ip"
+            "value": "GITHUBMOC2-ip"
         },
         "publicIpAddressType": {
             "value": "Dynamic"
@@ -59,10 +45,10 @@
             "value": "Basic"
         },
         "virtualMachineName": {
-            "value": "Win2K12MOC2"
+            "value": "GITHUBMOC2"
         },
         "virtualMachineRG": {
-            "value": "MOC2Lab"
+            "value": "cloud-shell-storage-southeastasia"
         },
         "osDiskType": {
             "value": "Standard_LRS"
@@ -71,10 +57,10 @@
             "value": "Standard_B1s"
         },
         "adminUsername": {
-            "value": "W2k12admin"
+            "value": "GITHUBMOC2"
         },
         "adminPassword": {
-            "value": null
+            "value": "MOCP@SSW)RD1"
         },
         "autoShutdownStatus": {
             "value": "Enabled"
